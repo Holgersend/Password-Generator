@@ -18,6 +18,8 @@ var confirmSpecial;
 function generatePassword(){
 // prompted for  password criteria
 // password lenght of 8 < 128 characters 
+var confirmLength = prompt ("How many characters would you like in your password? At least 8 characters and no more than 128 characters");
+
 // lowercase, uppercase, numeric and special characters
 // input should be validated
 // generate password that matches the selected criteria
