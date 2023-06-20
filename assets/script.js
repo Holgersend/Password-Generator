@@ -22,10 +22,14 @@ function generatePassword(){
   var confirmLength = prompt ("How many characters would you like in your password? At least 8 characters and no more than 128 characters");
     console.log("Password length" + confirmLength);
 
-   if (confirmLength <8 || confirmLength >128) {
-    alert ("Password length must have between 8 to 128 characters")
 
-   } else  { 
+    if (!confirmLength) {
+      alert ("Password length must have between 8 to 128 characters");
+
+    }else if(confirmLength <8 || confirmLength >128) {
+    alert ("Password length must have between 8 to 128 characters");
+     
+   } else { 
     confirmLowerCase = confirm("Your password will contain lower case letters");
     console.log("lower case" + confirmLowerCase);
     confirmUpperCase = confirm("Your password will contain upper case letters");
