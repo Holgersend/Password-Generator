@@ -18,8 +18,8 @@ WHEN I answer each prompt and the input is validated then generates a random pas
 
 # Repopsitory link
 
-[https://github.com/Holgersend/Password-Generator](url)
+[https://github.com/Holgersend/Password-Generator](https://github.com/Holgersend/Password-Generator)
 
 # Web Site link 
 
-[https://holgersend.github.io/Password-Generator/](url)
+[https://holgersend.github.io/Password-Generator/](https://holgersend.github.io/Password-Generator/)
