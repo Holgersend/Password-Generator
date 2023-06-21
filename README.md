@@ -3,8 +3,8 @@
 # Description
 
 This application generates a random password base on the acceptance criteria when the user selects:
-1.- a length of at least 8 characters and no more than 128 characters
-THEN prompted for the next character types to include in the password
+- a length of at least 8 characters and no more than 128 characters
+* THEN prompted for the next character types to include in the password
 - lowercase
 - uppercase
 - numeric
@@ -22,4 +22,4 @@ WHEN I answer each prompt and the input is validated then generates a random pas
 
 # Web Site link 
 
-[](url)
+[https://holgersend.github.io/Password-Generator/](url)
